@@ -73,19 +73,7 @@ test("Featured Audio blinks should be rendered",()=>{
 
 });
 
-test("on click Entrepreneurship, key ideas must be displayed",()=>{
 
-
-    render(
-
-
-        <BrowserRouter>
-        <TrendingBlinks />
-        </BrowserRouter>
-
-    );
-      
-});
 
 test("Filter check- false",()=>{
 

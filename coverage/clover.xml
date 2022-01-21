@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642747347589" clover="3.2.0">
-  <project timestamp="1642747347589" name="All files">
-    <metrics statements="199" coveredstatements="186" conditionals="20" coveredconditionals="14" methods="68" coveredmethods="56" elements="287" coveredelements="256" complexity="0" loc="199" ncloc="199" packages="24" files="36" classes="36"/>
+<coverage generated="1642749569063" clover="3.2.0">
+  <project timestamp="1642749569063" name="All files">
+    <metrics statements="202" coveredstatements="189" conditionals="20" coveredconditionals="14" methods="69" coveredmethods="57" elements="291" coveredelements="260" complexity="0" loc="202" ncloc="202" packages="24" files="36" classes="36"/>
     <package name="Atoms">
       <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="ProgressBar.tsx" path="/home/sowmyg/blinklist/src/Atoms/ProgressBar.tsx">
@@ -32,6 +32,16 @@
         <line num="28" count="19" type="stmt"/>
       </file>
     </package>
+    <package name="Atoms.DownArrow">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="DownArrow.tsx" path="/home/sowmyg/blinklist/src/Atoms/DownArrow/DownArrow.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="Atoms.MylibraryTitle">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="MyLibraryTitle.tsx" path="/home/sowmyg/blinklist/src/Atoms/MylibraryTitle/MyLibraryTitle.tsx">
@@ -46,20 +56,20 @@
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="PlusIcon.tsx" path="/home/sowmyg/blinklist/src/Atoms/PlusIcon/PlusIcon.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="28" count="100" type="stmt"/>
-        <line num="29" count="100" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="28" count="89" type="stmt"/>
+        <line num="29" count="89" type="stmt"/>
       </file>
     </package>
     <package name="Atoms.Searchicon">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="MySearchicon.tsx" path="/home/sowmyg/blinklist/src/Atoms/Searchicon/MySearchicon.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="27" count="13" type="stmt"/>
-        <line num="28" count="13" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="28" count="14" type="stmt"/>
       </file>
     </package>
     <package name="Atoms.Tabs">
@@ -80,18 +90,18 @@
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="TimeIcon.tsx" path="/home/sowmyg/blinklist/src/Atoms/TimeIcon/TimeIcon.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="27" count="4" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
       </file>
     </package>
     <package name="Atoms.UserIcon">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="UserIcon.tsx" path="/home/sowmyg/blinklist/src/Atoms/UserIcon/UserIcon.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="11" count="193" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="11" count="182" type="stmt"/>
       </file>
     </package>
     <package name="Molecules.BookCard">
@@ -101,7 +111,7 @@
         <line num="19" count="1" type="stmt"/>
         <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="29" count="1" type="stmt"/>
-        <line num="30" count="100" type="stmt"/>
+        <line num="30" count="88" type="stmt"/>
         <line num="55" count="1" type="stmt"/>
         <line num="56" count="1" type="stmt"/>
         <line num="64" count="1" type="stmt"/>
@@ -114,8 +124,8 @@
         <line num="8" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="140" count="1" type="stmt"/>
-        <line num="142" count="100" type="stmt"/>
-        <line num="143" count="100" type="stmt"/>
+        <line num="142" count="88" type="stmt"/>
+        <line num="143" count="88" type="stmt"/>
       </file>
       <file name="CurrentCard.tsx" path="/home/sowmyg/blinklist/src/Molecules/BookCard/CurrentCard.tsx">
         <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
@@ -257,10 +267,10 @@
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Footer.tsx" path="/home/sowmyg/blinklist/src/Organisms/Footer/Footer.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
         <line num="35" count="5" type="stmt"/>
-        <line num="36" count="5" type="stmt"/>
       </file>
     </package>
     <package name="Organisms.Footer.BlinklistAndIdeas">
@@ -274,13 +284,16 @@
       </file>
     </package>
     <package name="Organisms.Footer.Company">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="Company.tsx" path="/home/sowmyg/blinklist/src/Organisms/Footer/Company/Company.tsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
         <line num="41" count="5" type="stmt"/>
-        <line num="42" count="5" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="102" count="5" type="stmt"/>
+        <line num="103" count="5" type="stmt"/>
       </file>
     </package>
     <package name="Organisms.Footer.Footer_Editorial">
@@ -301,16 +314,6 @@
         <line num="25" count="1" type="stmt"/>
         <line num="27" count="5" type="stmt"/>
         <line num="29" count="5" type="stmt"/>
-      </file>
-    </package>
-    <package name="Organisms.Footer.UsefulLinks">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="UsefulLinks.tsx" path="/home/sowmyg/blinklist/src/Organisms/Footer/UsefulLinks/UsefulLinks.tsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="41" count="5" type="stmt"/>
-        <line num="42" count="5" type="stmt"/>
       </file>
     </package>
     <package name="Organisms.GridOfBooks">
@@ -366,13 +369,13 @@
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
         <line num="14" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
-        <line num="56" count="11" type="stmt"/>
-        <line num="57" count="11" type="stmt"/>
-        <line num="59" count="11" type="stmt"/>
+        <line num="56" count="10" type="stmt"/>
+        <line num="57" count="10" type="stmt"/>
+        <line num="59" count="10" type="stmt"/>
         <line num="64" count="3" type="stmt"/>
-        <line num="83" count="66" type="stmt"/>
-        <line num="102" count="33" type="stmt"/>
-        <line num="118" count="33" type="stmt"/>
+        <line num="83" count="60" type="stmt"/>
+        <line num="102" count="30" type="stmt"/>
+        <line num="118" count="30" type="stmt"/>
       </file>
       <file name="TrendingBlinksdata.tsx" path="/home/sowmyg/blinklist/src/Organisms/TrendingBlinks/TrendingBlinksdata.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
