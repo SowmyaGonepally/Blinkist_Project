@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import App from './App';
+import App from './Pages/App';
 
 import './index.css';
-import Page2 from './Page2';
-import Page3 from './Page3';
+import Page2 from './Pages/Page2';
 import reportWebVitals from './reportWebVitals';
+import Page3 from './Pages/Page3';
 
 
 

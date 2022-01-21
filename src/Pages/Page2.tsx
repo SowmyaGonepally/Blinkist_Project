@@ -1,10 +1,10 @@
 import { StyledEngineProvider } from "@mui/material";
 import React, { useState } from "react";
-import MyAppBar from "./Organisms/AppBar/MyAppBar";
-import AppBarWithCategories from "./Organisms/AppBarWithCategories/AppBarWithCategories";
-import ExploreBooks from "./Organisms/ExploreBooks/ExploreBooks";
-import { Footer } from "./Organisms/Footer/Footer";
-import TrendingBlinks from "./Organisms/TrendingBlinks/TrendingBlinks";
+import MyAppBar from "../Organisms/AppBar/MyAppBar";
+import AppBarWithCategories from "../Organisms/AppBarWithCategories/AppBarWithCategories";
+import ExploreBooks from "../Organisms/ExploreBooks/ExploreBooks";
+import { Footer } from "../Organisms/Footer/Footer";
+import TrendingBlinks from "../Organisms/TrendingBlinks/TrendingBlinks";
 
 const Page2 : React.FunctionComponent = () =>
 {

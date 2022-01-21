@@ -1,10 +1,11 @@
 import { StyledEngineProvider, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React, { useState } from "react";
-import MyAppBar from "./Organisms/AppBar/MyAppBar";
-import AppBarWithCategories from "./Organisms/AppBarWithCategories/AppBarWithCategories";
-import BeyondEntrepreneurship from "./Organisms/BeyondEntrepreneurship/BeyondEntrepreneurship";
-import { Footer } from "./Organisms/Footer/Footer";
+import MyAppBar from "../Organisms/AppBar/MyAppBar";
+import AppBarWithCategories from "../Organisms/AppBarWithCategories/AppBarWithCategories";
+import BeyondEntrepreneurship from "../Organisms/BeyondEntrepreneurship/BeyondEntrepreneurship";
+import { Footer } from "../Organisms/Footer/Footer";
+
 
 
 const useStyles=makeStyles({

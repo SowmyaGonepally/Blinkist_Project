@@ -21,8 +21,6 @@ const MyAvatar:React.FunctionComponent<Props>=(props)=>{
     const classes=useStyles();
 
     return(
-
-
         <>
           <Avatar sx={{bgcolor:'#69A6E3'}} className={classes.avatar}>{props.alphabet}</Avatar>
         </>

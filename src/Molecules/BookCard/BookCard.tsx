@@ -170,8 +170,6 @@ const BookCard:React.FunctionComponent<Props>=(props)=>
 
         </ThemeProvider>
 
-       
-
     
         </StyledEngineProvider>
     );

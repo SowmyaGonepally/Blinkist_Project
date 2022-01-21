@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
 
-import MyLibraryTitle from './Atoms/MylibraryTitle/MyLibraryTitle';
-import MyTabs from './Atoms/Tabs/MyTabs';
-import MyAppBar from './Organisms/AppBar/MyAppBar';
-import AppBarWithCategories from './Organisms/AppBarWithCategories/AppBarWithCategories';
-import { Footer } from './Organisms/Footer/Footer';
+import MyLibraryTitle from '../Atoms/MylibraryTitle/MyLibraryTitle';
+import MyTabs from '../Atoms/Tabs/MyTabs';
+import MyAppBar from '../Organisms/AppBar/MyAppBar';
+import AppBarWithCategories from '../Organisms/AppBarWithCategories/AppBarWithCategories';
+import { Footer } from '../Organisms/Footer/Footer';
 
 
 
