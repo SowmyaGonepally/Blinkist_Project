@@ -14,6 +14,7 @@ import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 
 
 
+
 const useStyles=makeStyles({
 
    appbar:{
@@ -150,7 +151,7 @@ interface Props{
 }
 
 
-const MyAppBar:React.FunctionComponent<Props>=(props)=>
+ const MyAppBar:React.FunctionComponent<Props>=(props)=>
 {
 
     const classes=useStyles();
@@ -270,4 +271,5 @@ const MyAppBar:React.FunctionComponent<Props>=(props)=>
     );
 }
 
-export default  MyAppBar;
+
+export default MyAppBar;
