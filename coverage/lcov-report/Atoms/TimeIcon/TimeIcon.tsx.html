@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for Atoms/PlusIcon/PlusIcon.tsx</title>
+    <title>Code coverage report for Atoms/TimeIcon/TimeIcon.tsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">Atoms/PlusIcon</a> PlusIcon.tsx</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">Atoms/TimeIcon</a> TimeIcon.tsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -30,9 +30,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>1/2</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
@@ -99,19 +99,15 @@
 <a name='L34'></a><a href='#L34'>34</a>
 <a name='L35'></a><a href='#L35'>35</a>
 <a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a>
-<a name='L38'></a><a href='#L38'>38</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -126,55 +122,56 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">100x</span>
-<span class="cline-any cline-yes">100x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import AddIcon from '@mui/icons-material/Add';
-import { makeStyles } from '@mui/styles';
-import classNames from 'classnames';
-import React from 'react';
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from "react";
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import { makeStyles } from "@mui/styles";
+import {  StyledEngineProvider } from "@mui/material/styles";
 &nbsp;
-const useStyles = makeStyles({
 &nbsp;
-    addicon:{
-        height: '14px',
-        width: '14px',
-        left: '5px',
-        top: '5px',
-        borderRadius: '0px',
-     
+&nbsp;
+&nbsp;
+const useStyles=makeStyles({
+&nbsp;
+    timeicon:
+    {
+        height: '20px',
+        width: '20px',
+        left: '2px',
+        top: '2px',
+        borderRadius: '0px'
         
     }
 &nbsp;
 });
-&nbsp;
-interface Props{
-    color?:string,
-    className?:string
-}
-&nbsp;
-const PlusIcon:React.FunctionComponent&lt;Props&gt;=(props)=&gt;
+const TimeIcon:React.FunctionComponent = ()=&gt;
 {
-&nbsp;
     const classes=useStyles();
+&nbsp;
+&nbsp;
     return(
 &nbsp;
+        &lt;StyledEngineProvider injectFirst&gt;
 &nbsp;
-         &lt;&gt;
-         &lt;AddIcon className={classNames(classes.addicon,props.className?<span class="branch-0 cbranch-no" title="branch not covered" >props.className:</span>'')} sx={{color:props.color}}/&gt;
-         &lt;/&gt;
+        &lt;AccessTimeIcon className={classes.timeicon}/&gt;
+&nbsp;
+        &lt;/StyledEngineProvider&gt;
     );
 }
 &nbsp;
-export default PlusIcon;</pre></td></tr></table></pre>
+export default TimeIcon;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

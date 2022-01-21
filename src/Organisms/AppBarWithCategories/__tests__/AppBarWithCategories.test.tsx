@@ -9,8 +9,8 @@ test("app bar should render blinklist logo",()=>{
     render(
        <BrowserRouter> <AppBarWithCategories handleChange={undefined} /> </BrowserRouter>
     );
-    const image= screen.getByRole("img");
-    expect(image).toHaveAttribute("src","test-file-stub");
+    const image= screen.getByAltText(/Blinklist/i);
+    expect(image).toBeInTheDocument();
 });
 
 test("app bar should have explore",()=>{

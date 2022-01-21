@@ -53,7 +53,7 @@ const useStyles=makeStyles({
        marginLeft:'58px',
        height: '20px',
        width: '57px',
-       borderRadius: 'nullpx',//styleName: Body 1;
+       borderRadius: 'nullpx',
        fontFamily: 'Raleway',
        fontSize: '18px',
        fontStyle: 'normal',

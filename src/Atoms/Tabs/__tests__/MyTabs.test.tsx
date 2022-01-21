@@ -9,12 +9,19 @@ test("Testing if currentlyReading is the active tab",()=>{
     render(
       <BrowserRouter>  <MyTabs searchTerm="" /> </BrowserRouter>
     );
-
-    const tabName=screen.getByText("Currently Reading");
-    expect(tabName).toBeInTheDocument();
+    const tabName=screen.getByText("Currently Reading").closest("button");
+    expect(tabName).toHaveAttribute("aria-selected","true");
    
 });
+test("Testing if Finished is the inactive tab",()=>{
 
+    render(
+      <BrowserRouter>  <MyTabs searchTerm="" /> </BrowserRouter>
+    );
+    const tabName=screen.getAllByText("Finished")[0].closest("button");
+    expect(tabName).toHaveAttribute("aria-selected","false");
+   
+});
 test("Book should match with filter human",()=>{
 
     render(
