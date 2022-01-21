@@ -2,10 +2,9 @@ import { Grid, StyledEngineProvider } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
 import { BlinkListAndIdeas } from "./BlinklistAndIdeas/BlinkListAndIdeas";
-import { Company } from "./Company/Company";
+import { Company, UsefulLinks } from "./Company/Company";
 import { Editorial } from "./Footer_Editorial/Editorial";
 import { Sitemap } from "./Sitemap/Sitemap";
-import { UsefulLinks } from "./UsefulLinks/UsefulLinks";
 
 const useStyles=makeStyles({
 
