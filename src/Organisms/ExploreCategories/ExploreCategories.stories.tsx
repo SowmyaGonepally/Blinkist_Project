@@ -1,6 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 import ExploreCategories from "./ExploreCategories";
+import React from 'react';
 
 export default{
     title:'Organisms/Explore Categories',

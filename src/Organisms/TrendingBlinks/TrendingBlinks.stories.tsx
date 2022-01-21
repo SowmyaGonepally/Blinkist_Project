@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
+import React from 'react';
 
 import TrendingBlinks from "./TrendingBlinks";
 

@@ -6,6 +6,7 @@ import BookCard from "./BookCard";
 import image_2 from '../../Atoms/images/2.png';
 import { Button, Typography } from "@mui/material";
 import PlusIcon from "../../Atoms/PlusIcon/PlusIcon";
+import React from 'react';
 
 
 

@@ -1,6 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import CurrentCard from "./CurrentCard";
 import image_1 from '../../Atoms/images/1.png';
+import React from 'react';
 
 
 export default{

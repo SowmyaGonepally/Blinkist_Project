@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import ExploreBooks from "./ExploreBooks";
+import React from 'react';
 
 export default{
     title:'Organisms/Explore Books',

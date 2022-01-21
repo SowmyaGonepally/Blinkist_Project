@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react"
 import UserIcon from "./UserIcon"
+import React from 'react';
 
 export default{
   title:'Atoms/UserIcon',

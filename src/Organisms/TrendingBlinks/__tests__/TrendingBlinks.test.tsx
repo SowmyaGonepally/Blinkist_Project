@@ -1,7 +1,8 @@
 import { fireEvent, render,screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import TrendingBlinks from "../TrendingBlinks";
-
+import React from 'react';
+import "@testing-library/jest-dom"
 
 test(("check search bar is working correctly"),()=>{
 

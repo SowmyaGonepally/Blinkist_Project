@@ -1,4 +1,5 @@
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import React from 'react';
 
 interface Props{
     className?:string

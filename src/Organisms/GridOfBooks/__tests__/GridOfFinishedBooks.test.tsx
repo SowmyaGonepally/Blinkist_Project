@@ -1,7 +1,8 @@
 import { fireEvent, render,screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import GridOfFinishedBooks from "../GridOfFinishedBooks";
-
+import React from 'react';
+import "@testing-library/jest-dom"
 
 test("Number of Finished books initially should be 9",()=>{
 

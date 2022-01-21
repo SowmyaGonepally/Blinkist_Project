@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import MySearchIcon from "./MySearchicon";
+import React from 'react';
 
 export default{
     title:'Atoms/MySearchIcon',

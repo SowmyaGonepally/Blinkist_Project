@@ -1,5 +1,7 @@
 import { render,screen } from "@testing-library/react";
 import { Footer } from "../Footer"
+import React from 'react';
+import "@testing-library/jest-dom"
 
 test("Big ideas should be rendered",()=>{
     render(

@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import MyLibraryTitle from "./MyLibraryTitle";
+import React from 'react';
 
 export default{
     title:'Atoms/MyLibrary',

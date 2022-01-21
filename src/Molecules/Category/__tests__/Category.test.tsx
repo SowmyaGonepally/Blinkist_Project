@@ -2,6 +2,8 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import { render,screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import Category from '../Category';
+import React from 'react';
+import "@testing-library/jest-dom"
 
 test("Category name should match",()=>{
 

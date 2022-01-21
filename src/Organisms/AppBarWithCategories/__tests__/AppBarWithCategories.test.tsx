@@ -1,6 +1,8 @@
 import { render,screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import AppBarWithCategories from "../AppBarWithCategories";
+import React from 'react';
+import "@testing-library/jest-dom"
 
 test("app bar should render blinklist logo",()=>{
 
@@ -8,7 +10,7 @@ test("app bar should render blinklist logo",()=>{
        <BrowserRouter> <AppBarWithCategories handleChange={undefined} /> </BrowserRouter>
     );
     const image= screen.getByRole("img");
-    expect(image).toHaveAttribute("src","Blinklistlogo.png");
+    expect(image).toHaveAttribute("src","test-file-stub");
 });
 
 test("app bar should have explore",()=>{

@@ -1,6 +1,7 @@
 
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import DownArrow from "./DownArrow";
+import React from 'react';
 
 export default{
     title:'Atoms/DownArrow',

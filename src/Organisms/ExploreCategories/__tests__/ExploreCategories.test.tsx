@@ -1,6 +1,8 @@
 import { render,screen } from "@testing-library/react"
 import { BrowserRouter } from "react-router-dom";
 import ExploreCategories from "../ExploreCategories"
+import React from 'react';
+import "@testing-library/jest-dom"
 
 test("Explore by categories should be rendered",()=>{
      

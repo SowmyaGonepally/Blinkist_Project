@@ -1,5 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import MyTabs from "./MyTabs";
+import React from 'react';
+
 
 export default{
     title:'Atoms/MyTabs',

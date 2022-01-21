@@ -3,6 +3,7 @@ import { render,screen} from "@testing-library/react";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import CurrentCard from "../CurrentCard";
+import "@testing-library/jest-dom"
 
 test('book name should match with "Bring Your Human to Work"',async ()=>{
 

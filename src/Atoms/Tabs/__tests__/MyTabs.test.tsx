@@ -1,7 +1,8 @@
 import { render ,screen} from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import MyTabs from "../MyTabs";
-
+import React from 'react';
+import "@testing-library/jest-dom"
 
 test("Testing if currentlyReading is the active tab",()=>{
 
